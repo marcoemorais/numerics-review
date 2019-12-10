@@ -9,6 +9,3 @@ docker-run:
 docker-exec:
 	docker exec -it $(NAME) /bin/bash
 
-docker-commit:
-	docker commit $(shell docker ps --quiet) $(IMAGE):$(TAG)
-
