@@ -7,6 +7,9 @@ RUN apt-get update && apt-get upgrade -y && apt-get install -y \
     python3 \
     python3-pip
 
+# Upgrade pip to support newer format wheels used by some packages.
+RUN pip3 install --upgrade pip
+
 # Copy requirements file into container image.
 COPY requirements.txt /
 
