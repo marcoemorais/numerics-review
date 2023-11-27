@@ -1,6 +1,12 @@
 # numerics-review
 
-This repo contains jupyter notebooks with answers to the the end of chapter review questions for the textbook _Scientific Computing_ by Michael Heath (Heath, 2018). These notebooks were originally compiled by Marco Morais while taking [CS 450 Numerical Analysis](https://cs.illinois.edu/academics/courses/cs450) at UIUC and come without any guarantee of accuracy or endorsement by the textbook author.
+Jupyter notebooks with answers to the the end of chapter review questions for the textbook _Scientific Computing_ by Michael Heath (Heath, 2018).
+
+I compiled these notebooks while taking [CS 450 Numerical Analysis](https://cs.illinois.edu/academics/courses/cs450) at UIUC and they come without any guarantee of accuracy or endorsement by the textbook author.
+
+I started a similar repository containing the algorithm pseudocode from the textbook implemented in numpy and scipy at [marcoemorais/numerics-python](https://github.com/marcoemorais/numerics-python).
+
+If you find this repo helpful, please star this repository. Thank you!
 
 ```
 @book{heath2018scientific,
